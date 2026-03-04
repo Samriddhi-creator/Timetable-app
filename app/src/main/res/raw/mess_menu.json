@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "day": "MONDAY",
+    "breakfast": "ALOO PARATHA + RED AND GREEN CHUTNEY",
+    "lunch": "PHOOL GOBHI + RAJMA + PLAIN RICE + FRYUMS + ROTI + CURD",
+    "snacks": "SAMOSA + CHUTNEY + TEA",
+    "dinner": "PALAK PANEER + BUTTER CHICKEN + DAL FRY + PLAIN RICE + ROTI + CUSTARD"
+  },
+  {
+    "id": "2",
+    "day": "TUESDAY",
+    "breakfast": "PAALAK POORI + ALOO CURRY + EGG BHUJI",
+    "lunch": "MIX VEG + DAL TADKA + JEERA RICE + PAPAD + ROTI + CHANCH",
+    "snacks": "CUTLET + COFFEE",
+    "dinner": "ALOO SOYA + DAL MAKHNI + ROTI + FRIED RICE + DUM ALOO + DAL TADKA + FRIED RICE + ROTI + FRYUMS + GULAB JAMUN"
+  },
+  {
+    "id": "3",
+    "day": "WEDNESDAY",
+    "breakfast": "PASTA + KETCHUP + SPROUTS CHAT",
+    "lunch": "KADHI + MIX DAL + PLAIN RICE + ALOO BHUJIYA + FRYUMS + ROTI + LASSI",
+    "snacks": "BREAD ROLL + TEA",
+    "dinner": "CHILLI PANEER + CHILLI CHICKEN + JEERA RICE + ROTI + DAL"
+  },
+  {
+    "id": "4",
+    "day": "THURSDAY",
+    "breakfast": "MIX VEG PARATHA + POHA + JALEBI + NAMKEEN (SEV)",
+    "lunch": "CHOLE + MEETHI MATAR + PAPAD + PLAIN RICE + ROTI + LASSI",
+    "snacks": "SPRING ROLL + TEA / COFFEE",
+    "dinner": "LAUKI KOFTA + RAJMA + LEMON RICE + ROTI + GAJAR HALWA / RASGULLA"
+  },
+  {
+    "id": "5",
+    "day": "FRIDAY",
+    "breakfast": "UTTAPAM + VADA + SAMBHAR + CHUTNEY",
+    "lunch": "MIX VEG + CHANA DAL + PLAIN RICE + ROTI + FRYUMS + BUTTER MILK",
+    "snacks": "BREAD PAKODA + COFFEE",
+    "dinner": "BUTTER PANEER MASALA + DAL + DHANIYA CHICKEN / KADHAI CHICKEN + PLAIN RICE + ROTI + RASMALAI / KHEER"
+  },
+  {
+    "id": "6",
+    "day": "SATURDAY",
+    "breakfast": "SANDWICH + GREEN CHUTNEY + KETCHUP + SPROUT CHAT",
+    "lunch": "DUM ALOO + DAL TADKA + TOMATO RICE + ROTI + PAPAD / NOODLES + MANCHURIAN + FRIED RICE + PLAIN RICE + DAL",
+    "snacks": "GOLGAPPE + TEA",
+    "dinner": "MALAI KOFTA + EGG CURRY + PLAIN RICE + ROTI + DAL + BESAN KI BARFI"
+  },
+  {
+    "id": "7",
+    "day": "SUNDAY",
+    "breakfast": "MASALA DOSA + SAMBHAR + CHUTNEY",
+    "lunch": "CHOLE BHATURE + DAL FRY + JEERA RICE + BOONDI RAITA",
+    "snacks": "MAGGI + TEA",
+    "dinner": "CHICKEN & VEG BIRYANI + RAITA + GRAVY + SHAHI TUKDA"
+  },
+  {
+    "id": "8",
+    "day": "EVERYDAY",
+    "breakfast": "MILK + COCO POWDER + BREAD + BUTTER + JAM + TEA + CORN FLAKES + EGG + FRUITS",
+    "lunch": "SALAD + PICKLE",
+    "snacks": "TOAST",
+    "dinner": "SALAD + PICKLE"
+  }
+]
