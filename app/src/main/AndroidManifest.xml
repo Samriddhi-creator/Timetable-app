@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Oneiitp">
         <activity
+            android:name=".MessMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
