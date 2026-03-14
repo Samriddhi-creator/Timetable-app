@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.nss.oneiitp">
 
     <application
@@ -28,6 +27,11 @@
 
         <activity
             android:name=".MessMenuActivity"
+            android:exported="false" />
+
+        <!-- BusScheduleActivity (Compose screen) -->
+        <activity
+            android:name=".BusScheduleActivity"
             android:exported="false" />
 
     </application>

@@ -34,6 +34,7 @@ import org.json.JSONArray
 import java.io.InputStream
 import java.nio.charset.StandardCharsets
 import java.util.*
+import com.google.firebase.database.DataSnapshot
 
 data class StudentInfo(
     @get:PropertyName("NAME") @set:PropertyName("NAME") var name: String = "",
@@ -44,6 +45,7 @@ data class StudentInfo(
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
         setContent {
             OneiitpTheme {
@@ -146,26 +148,47 @@ fun HomeScreen(
                 modifier = Modifier.padding(bottom = 48.dp)
             )
 
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(16.dp)
+            Column(
+                verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
-                DashboardCard(
-                    title = "Time\nTable",
-                    color = MaterialTheme.colorScheme.primaryContainer,
-                    onClick = onTimetableClick,
-                    modifier = Modifier.weight(1f)
-                )
-                
-                DashboardCard(
-                    title = "Mess\nMenu",
-                    color = MaterialTheme.colorScheme.secondaryContainer,
-                    onClick = {
-                        val intent = Intent(context, MessMenuActivity::class.java)
-                        context.startActivity(intent)
-                    },
-                    modifier = Modifier.weight(1f)
-                )
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    DashboardCard(
+                        title = "Time\nTable",
+                        color = MaterialTheme.colorScheme.primaryContainer,
+                        onClick = onTimetableClick,
+                        modifier = Modifier.weight(1f)
+                    )
+                    
+                    DashboardCard(
+                        title = "Mess\nMenu",
+                        color = MaterialTheme.colorScheme.secondaryContainer,
+                        onClick = {
+                            val intent = Intent(context, MessMenuActivity::class.java)
+                            context.startActivity(intent)
+                        },
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    DashboardCard(
+                        title = "Bus\nSchedule",
+                        color = MaterialTheme.colorScheme.tertiaryContainer,
+                        onClick = {
+                            val intent = Intent(context, BusScheduleActivity::class.java)
+                            context.startActivity(intent)
+                        },
+                        modifier = Modifier.weight(1f)
+                    )
+                    // Empty space to balance the row
+                    Spacer(modifier = Modifier.weight(1f))
+                }
             }
         }
     }
